@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="never" />
+    <group>
+        <item
+            android:id="@+id/Home"
+            android:icon="@drawable/ic_menuhome"
+            android:title="Home" />
+        <item
+            android:id="@+id/Profile"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/Cart"
+            android:icon="@drawable/ic_baseline_shopping_cart_24"
+            android:title="Cart" />
+        <item
+            android:id="@+id/MyOrders"
+            android:icon="@drawable/myorder"
+            android:title="My Orders" />
+
+    </group>
+    <item android:title="Categories">
+        <menu>
+            <item
+                android:id="@+id/fruits"
+                android:title="   Fruits" />
+            <item
+                android:id="@+id/vegetables"
+                android:title="   Vegetables" />
+
+            <item
+                android:id="@+id/meats"
+                android:title="   Meats" />
+        </menu>
+    </item>
+    <item android:title="Logout">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_baseline_loginout"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>
